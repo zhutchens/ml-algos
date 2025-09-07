@@ -1,0 +1,1 @@
+In progress project to implement various machine learning algorithms. Currently working on linear models such as ridge, lasso, and elastic net. Next will most likely be a multi-layered perceptron or decision trees. 
