@@ -9,11 +9,3 @@ class Model(ABC):
     @abstractmethod
     def predict(self, x: np.ndarray) -> np.ndarray:
         pass
-
-    @abstractmethod
-    def get_parameters(self) -> np.ndarray:
-        pass
-
-    @abstractmethod
-    def update_parameters(self, params: np.ndarray) -> None:
-        pass
